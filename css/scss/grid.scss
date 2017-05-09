@@ -1,0 +1,105 @@
+@mixin clearfix {
+	&:after {
+		display: table;
+		clear: both;
+		content: '';
+	}
+}
+
+html {
+	box-sizing: border-box;	
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.container {
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.grid-item {
+	padding-right: 10px;
+	padding-left: 10px;
+	float: left;
+}
+
+.one-col {
+	width: percentage(1/12);
+}
+
+.two-col {
+	width: percentage(2/12);
+}
+
+.three-col {
+	width: percentage(3/12);
+	height: 100px;
+}
+
+.four-col {
+	width: percentage(4/12);
+	height: 100px;
+}
+
+.five-col {
+	width: percentage(5/12);
+}
+
+.six-col {
+	width: percentage(6/12);
+}
+
+.seven-col {
+	width: percentage(7/12);
+}
+
+.eight-col {
+	width: percentage(8/12);
+}
+
+.nine-col {
+	width: percentage(9/12);
+}
+
+.ten-col {
+	width: percentage(10/12);
+}
+
+.eleven-col {
+	width: percentage(11/12);
+}
+
+.twelve-col {
+	width: percentage(12/12);
+}
+
+.twelve-col-grid {
+	@include clearfix;
+}
+
+.column {
+	width: calc((100% - 20px * 12) / 12);
+	height: 80px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background: rgba(0, 0, 255, 0.25);
+	float: left;
+}
+
+.red {
+	background-color: red;
+	height: 100px;
+}
+
+.green {
+	background-color: green;
+	height: 100px;
+}
+
+.blue {
+	background-color: blue;
+	height: 100px;
+}
