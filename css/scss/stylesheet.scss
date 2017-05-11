@@ -115,4 +115,11 @@ nav {
 .social-media {
 	height: 100px;
 	border-bottom: 1px solid gray;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	& > * {
+		margin-right: 100px;
+	}
 }
