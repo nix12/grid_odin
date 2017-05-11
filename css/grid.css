@@ -1,3 +1,4 @@
+@import url(normalize.css);
 html {
   box-sizing: border-box; }
 
@@ -21,12 +22,10 @@ html {
   width: 16.66667%; }
 
 .three-col {
-  width: 25%;
-  height: 100px; }
+  width: 25%; }
 
 .four-col {
-  width: 33.33333%;
-  height: 100px; }
+  width: 33.33333%; }
 
 .five-col {
   width: 41.66667%; }
