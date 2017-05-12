@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+body {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
 .logo {
   height: 30px;
   width: 30px; }
@@ -78,12 +81,72 @@ nav {
     font-family: 'Open Sans', sans-serif; }
 
 .social-media {
-  height: 100px;
+  height: 50px;
   border-bottom: 1px solid gray;
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 20px; }
   .social-media > * {
     margin-right: 100px; }
+
+.what-its-about h2 {
+  font-size: 2.75em;
+  line-height: 125%;
+  font-weight: bold;
+  color: #444;
+  margin-top: 100px;
+  margin-bottom: 1em;
+  font-weight: bold; }
+.what-its-about h4 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 125%;
+  color: #666; }
+.what-its-about .about-panels .about-panel .img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .what-its-about .about-panels .about-panel .img-wrapper img {
+    width: 100px;
+    height: auto;
+    border: 0; }
+.what-its-about .about-panels .about-panel h3 {
+  color: #f60;
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 125%;
+  text-align: center; }
+.what-its-about .about-panels .about-panel p {
+  text-align: center;
+  font-weight: 300;
+  font-size: .75em;
+  color: #666; }
+
+.dark {
+  background: url(../images/background.png); }
+
+.what-youll-learn h2 {
+  color: white;
+  font-size: 2.75em;
+  font-weight: bold;
+  line-height: 125%;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1em; }
+
+.course-panel img {
+  margin-right: 20px; }
+.course-panel .course {
+  margin-bottom: 50px; }
+  .course-panel .course a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row; }
+    .course-panel .course a:hover {
+      background: linear-gradient(rgba(125, 125, 125, 0.1), rgba(125, 125, 125, 0.1)); }
+    .course-panel .course a p {
+      color: #9f9f9f; }
 
 /*# sourceMappingURL=stylesheet.css.map */

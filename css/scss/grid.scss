@@ -80,6 +80,68 @@ html {
 	@include clearfix;
 }
 
+.offset-one{
+	width: percentage(1/12);
+	height: 10px;
+}
+
+.offset-two {
+	width: percentage(2/12);
+	height: 10px;
+}
+
+.offset-three {
+	width: percentage(3/12);
+	height: 10px;
+}
+
+.offset-four {
+	width: percentage(4/12);
+	height: 10px;
+}
+
+.offset-five {
+	width: percentage(5/12);
+	height: 10px;
+}
+
+.offset-six {
+	width: percentage(6/12);
+	height: 10px;
+}
+
+.offset-seven {
+	width: percentage(7/12);
+	height: 10px;
+}
+
+.offset-eight {
+	width: percentage(8/12);
+	height: 10px;
+}
+
+.offset-nine {
+	width: percentage(9/12);
+	height: 10px;
+}
+
+.offset-ten {
+	width: percentage(10/12);
+	height: 10px;
+}
+
+.offset-eleven {
+	width: percentage(11/12);
+	height: 10px;
+}
+
+.offset-twelve {
+	width: percentage(12/12);
+	height: 10px;
+}
+
+
+
 .column {
 	width: calc((100% - 20px * 12) / 12);
 	height: 80px;

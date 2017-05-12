@@ -56,6 +56,54 @@ html {
   clear: both;
   content: ''; }
 
+.offset-one {
+  width: 8.33333%;
+  height: 10px; }
+
+.offset-two {
+  width: 16.66667%;
+  height: 10px; }
+
+.offset-three {
+  width: 25%;
+  height: 10px; }
+
+.offset-four {
+  width: 33.33333%;
+  height: 10px; }
+
+.offset-five {
+  width: 41.66667%;
+  height: 10px; }
+
+.offset-six {
+  width: 50%;
+  height: 10px; }
+
+.offset-seven {
+  width: 58.33333%;
+  height: 10px; }
+
+.offset-eight {
+  width: 66.66667%;
+  height: 10px; }
+
+.offset-nine {
+  width: 75%;
+  height: 10px; }
+
+.offset-ten {
+  width: 83.33333%;
+  height: 10px; }
+
+.offset-eleven {
+  width: 91.66667%;
+  height: 10px; }
+
+.offset-twelve {
+  width: 100%;
+  height: 10px; }
+
 .column {
   width: calc((100% - 20px * 12) / 12);
   height: 80px;
